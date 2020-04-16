@@ -182,9 +182,9 @@ This is main CSS file that contains custom style rules used in this template
 
 .advantages .advantage__link:hover {
 
-  background-color: #c4a982;
+  background-color: #4bc3de;
 
-  border: 1px solid #c4a982;
+  border: 1px solid #4bc3de;
 
   color: #fff;
 
@@ -238,7 +238,7 @@ This is main CSS file that contains custom style rules used in this template
 
   padding-top: 200px;
 
-  background-color: #c4a982;
+  background-color: #4bc3de;
 
   min-height: 750px;
 
@@ -562,7 +562,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .about__video-iframe {
 
-  background-color: #000;
+  background-color: #2f4163;
 
   position: absolute;
 
@@ -610,7 +610,7 @@ This is main CSS file that contains custom style rules used in this template
 
   text-align: center;
 
-  color: #000;
+  color: #2f4163;
 
   text-transform: uppercase;
 
@@ -704,7 +704,7 @@ This is main CSS file that contains custom style rules used in this template
 
   margin-top: 10px;
 
-  color: #000;
+  color: #2f4163;
 
   text-transform: uppercase;
 
@@ -736,7 +736,7 @@ This is main CSS file that contains custom style rules used in this template
 
   vertical-align: middle;
 
-  color: #c4a982;
+  color: #4bc3de;
 
 }
 
@@ -896,7 +896,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .teammate__name {
 
-  color: #000;
+  color: #2f4163;
 
   text-transform: uppercase;
 
@@ -962,7 +962,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .skills__name {
 
-  color: #000;
+  color: #2f4163;
 
   text-transform: uppercase;
 
@@ -1002,7 +1002,7 @@ This is main CSS file that contains custom style rules used in this template
 
   width: 0;
 
-  background-color: #c4a982;
+  background-color: #4bc3de;
 
   -webkit-transition: width 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
 
@@ -1032,7 +1032,7 @@ This is main CSS file that contains custom style rules used in this template
 
   border: 1px solid #e1e1d8;
 
-  background-color: #c4a982;
+  background-color: #4bc3de;
 
   -webkit-box-shadow: inset 0px 0px 0px 3px white;
 
@@ -1198,7 +1198,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .team__pagination > .swiper-active-switch {
 
-  background-color: #000;
+  background-color: #2f4163;
 
 }
 
@@ -1208,7 +1208,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .portfolio__title {
 
-  color: #000;
+  color: #2f4163;
 
   float: left;
 
@@ -1246,7 +1246,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .portfolio__filters {
 
-  color: #000;
+  color: #2f4163;
 
   float: right;
 
@@ -1326,7 +1326,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .portfolio__filter:hover {
 
-  color: #c4a982;
+  color: #4bc3de;
 
 }
 
@@ -1442,7 +1442,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .portfolio__item-title {
 
-  color: #000;
+  color: #2f4163;
 
   float: right;
 
@@ -1534,9 +1534,9 @@ This is main CSS file that contains custom style rules used in this template
 
 .portfolio__icon:hover {
 
-  background-color: #c4a982;
+  background-color: #4bc3de;
 
-  border: 1px solid #c4a982;
+  border: 1px solid #4bc3de;
 
   text-decoration: none;
 
@@ -1554,7 +1554,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .activbut {
 
-  color: #c4a982;
+  color: #4bc3de;
 
 }
 
@@ -1640,7 +1640,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .testimonials__quote {
 
-  color: #000;
+  color: #2f4163;
 
   margin-top: 20px;
 
@@ -1682,7 +1682,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .testimonials__author-name {
 
-  color: #000;
+  color: #2f4163;
 
   text-align: center;
 
@@ -1706,7 +1706,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .testimonials__author-position {
 
-  color: #000;
+  color: #2f4163;
 
   text-align: center;
 
@@ -1778,7 +1778,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .testimonials__pagination > .swiper-active-switch {
 
-  background-color: #c4a982;
+  background-color: #4bc3de;
 
 }
 
@@ -1880,7 +1880,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .plan__title {
 
-  color: #c4a982;
+  color: #4bc3de;
 
   margin-top: 20px;
 
@@ -1914,7 +1914,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .plan__price {
 
-  color: #000;
+  color: #2f4163;
 
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 
@@ -1998,7 +1998,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .plan__param {
 
-  color: #000;
+  color: #2f4163;
 
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 
@@ -2044,7 +2044,7 @@ This is main CSS file that contains custom style rules used in this template
 
   text-align: center;
 
-  color: #000;
+  color: #2f4163;
 
   margin: 15px 0;
 
@@ -2102,9 +2102,9 @@ This is main CSS file that contains custom style rules used in this template
 
 .plan__purchase-btn:hover {
 
-  background-color: #c4a982;
+  background-color: #4bc3de;
 
-  /*border: 1px solid #c4a982;*/
+  /*border: 1px solid #4bc3de;*/
 
   text-decoration: none;
 
@@ -2118,7 +2118,7 @@ This is main CSS file that contains custom style rules used in this template
 
   text-align: center;
 
-  color: #000;
+  color: #2f4163;
 
   margin: 15px 0;
 
@@ -2181,7 +2181,7 @@ This is main CSS file that contains custom style rules used in this template
 
   text-decoration: none;
 
-  color: #010000;
+  color: #012f41630;
 
 }
 
@@ -2237,7 +2237,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .blog-slide__title {
 
-  color: #000;
+  color: #2f4163;
 
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 
@@ -2297,7 +2297,7 @@ This is main CSS file that contains custom style rules used in this template
 
   text-decoration: none;
 
-  color: #000;
+  color: #2f4163;
 
 }
 
@@ -2373,7 +2373,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .blog-slide__arrow-left:hover {
 
-  background-color: #c4a982;
+  background-color: #4bc3de;
 
   opacity: 1;
 
@@ -2449,7 +2449,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .blog-slide__arrow-right:hover {
 
-  background-color: #c4a982;
+  background-color: #4bc3de;
 
   opacity: 1;
 
@@ -2572,7 +2572,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .post-preview__title {
 
-  color: #000;
+  color: #2f4163;
 
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 
@@ -2628,7 +2628,7 @@ This is main CSS file that contains custom style rules used in this template
 
   text-decoration: none;
 
-  color: #000;
+  color: #2f4163;
 
 }
 
@@ -2644,7 +2644,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .post-preview:hover .post-preview__title {
 
-  color: #c4a982;
+  color: #4bc3de;
 
 }
 
@@ -2652,7 +2652,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .post-preview:hover .post-preview__more {
 
-  color: #000;
+  color: #2f4163;
 
 }
 
@@ -2690,7 +2690,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .clients__title {
 
-  color: #000;
+  color: #2f4163;
 
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 
@@ -2798,7 +2798,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .clients__pagination > .swiper-active-switch {
 
-  background-color: #000;
+  background-color: #2f4163;
 
 }
 
@@ -2940,7 +2940,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .contact-us__title {
 
-  color: #000;
+  color: #2f4163;
 
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 
@@ -3014,7 +3014,7 @@ This is main CSS file that contains custom style rules used in this template
 
   outline: none;
 
-  border-bottom: 2px dotted #c4a982;
+  border-bottom: 2px dotted #4bc3de;
 
 }
 
@@ -3026,7 +3026,7 @@ This is main CSS file that contains custom style rules used in this template
 
   display: inline-block;
 
-  background-color: #c4a982;
+  background-color: #4bc3de;
 
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 
@@ -3042,7 +3042,7 @@ This is main CSS file that contains custom style rules used in this template
 
   line-height: 54px;
 
-  border: 1px solid #c4a982;
+  border: 1px solid #4bc3de;
 
   margin-top: 55px;
 
@@ -3058,9 +3058,9 @@ This is main CSS file that contains custom style rules used in this template
 
   background-color: transparent;
 
-  color: #000;
+  color: #2f4163;
 
-  border: 1px solid #000;
+  border: 1px solid #2f4163;
 
 }
 
@@ -3068,7 +3068,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .contact-us__submit:focus {
 
-  outline: 1px solid #000;
+  outline: 1px solid #2f4163;
 
 }
 
@@ -3268,7 +3268,7 @@ This is main CSS file that contains custom style rules used in this template
 
   text-decoration: none;
 
-  background-color: #c4a982;
+  background-color: #4bc3de;
 
   color: #fff;
 
@@ -3324,7 +3324,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .main-footer__recent-post:hover:before {
 
-  color: #c4a982;
+  color: #4bc3de;
 
 }
 
@@ -3424,7 +3424,7 @@ This is main CSS file that contains custom style rules used in this template
 
   text-align: center;
 
-  background-color: #c4a982;
+  background-color: #4bc3de;
 
   border: none;
 
@@ -3498,7 +3498,7 @@ This is main CSS file that contains custom style rules used in this template
 
   text-decoration: none;
 
-  color: #c4a982;
+  color: #4bc3de;
 
 }
 
@@ -3510,7 +3510,7 @@ This is main CSS file that contains custom style rules used in this template
 
   line-height: 68px;
 
-  background-color: #000;
+  background-color: #2f4163;
 
   letter-spacing: 0.4px;
 
@@ -3596,9 +3596,9 @@ This is main CSS file that contains custom style rules used in this template
 
 .main-footer__up-btn:hover {
 
-  background-color: #c4a982;
+  background-color: #4bc3de;
 
-  border: 2px solid #c4a982;
+  border: 2px solid #4bc3de;
 
   color: #fff;
 
@@ -3610,9 +3610,9 @@ This is main CSS file that contains custom style rules used in this template
 
 .main-footer__up-btn:focus {
 
-  background-color: #c4a982;
+  background-color: #4bc3de;
 
-  border: 2px solid #c4a982;
+  border: 2px solid #4bc3de;
 
   color: #fff;
 
@@ -3632,7 +3632,7 @@ This is main CSS file that contains custom style rules used in this template
 
   .wpc-navigation.active {
 
-    background-color: #000;
+    background-color: #2f4163;
 
     min-height: 100vh;
 
@@ -4980,7 +4980,7 @@ This is main CSS file that contains custom style rules used in this template
   text-align: center;
   line-height: 50px;
   color: rgb(33, 32, 43);
-  background-color: #c4a982;
+  background-color: #4bc3de;
   border-radius: 50%;
   font-weight: 700;
   font-size: 16px;

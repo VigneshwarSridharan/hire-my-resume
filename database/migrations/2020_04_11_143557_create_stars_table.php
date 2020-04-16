@@ -18,6 +18,7 @@ class CreateStarsTable extends Migration
             $table->integer('resume_id');
             $table->integer('rating_id');
             $table->integer('stars');
+            $table->string('remark');
             $table->timestamps();
         });
     }

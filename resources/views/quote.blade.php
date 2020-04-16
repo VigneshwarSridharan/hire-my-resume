@@ -139,7 +139,7 @@
 
                                     <div class="input-group js-input-file">
     
-                                        <input class="input-file" type="file" name="resume" id="file" required >
+                                        <input class="input-file" type="file" name="resume" id="file" accept="application/pdf,application/msword,.doc, .docx" required >
     
                                     </div>
     
@@ -193,7 +193,17 @@
             }
             else {
                 $('.upload-cv').show()
+            }
+        })
 
+        $('#quote-form [name="resume"]').on('change', function(e) {
+            let target = e.target;
+            if (target.files && target.files[0]) {
+                const maxAllowedSize = 5 * 1024 * 1024;
+                if (target.files[0].size > maxAllowedSize) {
+                    alert("File is too big!");
+                    $('#quote-form [name="resume"]').val('')
+                }
             }
         })
 

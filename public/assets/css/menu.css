@@ -189,7 +189,7 @@ ul {
 .main-header .call-to-action__link {
   padding: 0 30px;
   display: inline-block;
-  background-color: #c4a982;
+  background-color: #4bc3de;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-weight: 700;
   text-decoration: none;
@@ -289,12 +289,12 @@ ul {
 }
 
 .menu-item > a:hover {
-  color: #c4a982;
+  color: #4bc3de;
   text-decoration: none;
 }
 
 .menu-item > a:focus {
-  color: #c4a982;
+  color: #4bc3de;
   text-decoration: none;
 }
 
