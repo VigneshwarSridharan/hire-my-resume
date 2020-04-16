@@ -43,6 +43,13 @@ Route::get('/clear', function() {
  
 });
 
+Route::get('/storage', function() {
+    
+    Artisan::call('storage:link');
+
+    return 'Storage linked done!';
+});
+
 Route::get('{slug}', function($slug) {
     $page = Page::where('slug','=',$slug)->first();
     if(isset($page)) {
