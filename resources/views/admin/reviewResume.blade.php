@@ -41,6 +41,7 @@
                                             data-rateit-max="5"
                                         >
                                         </div>
+                                        <textarea class="form-control" placeholder="Remark" name="remark[{{$rating['id']}}]">{{$rating['remark']}}</textarea>
                                     </div>
                                 </div>
                                 <hr style="margin-top:0" />
