@@ -696,6 +696,18 @@ This is main CSS file that contains custom style rules used in this template
 
 }
 
+@media screen and (max-width: 768px) {
+
+  .features__img > img {
+
+    width: 100%;
+
+    max-height: auto;
+
+  }
+
+}
+
 
 
 .features .feature__title {

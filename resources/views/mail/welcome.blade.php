@@ -119,9 +119,14 @@
               preview.</span
             >
             <div
-              style="background-color:#2f4163; color:#ffffff; text-align:center; font-size: 18px; font-family: sans-serif; padding: 8px;"
+              style="background-color:#ffffff; text-align:center; font-size: 18px; font-family: sans-serif; padding: 40px 0px 16px;"
             >
-              @yield('title')
+                <a href="{{ url('/')}}">
+                    <img src="{{ asset( setting('site.logo') )}}" />
+                </a>
+            </div>
+            <div style="background-color:#ffffff">
+                <img src="{{url('/assets/img/mail-hero.jpg')}}" style="width: 100%" />
             </div>
             <table
               class="main"
@@ -143,7 +148,30 @@
                       <td
                         style="font-family: sans-serif; font-size: 14px; vertical-align: top;"
                       >
-                        @yield('content')
+                        <h2 style="text-align:center; color: #4bc3de;">Thank you for joining HireMyResume! This is your first step to level-Up in your personal branding. Let's get started.</h2>
+                        <p><b>StylingCV</b> hs many great features that make creating a high-quality professional resume <b>fast</b>, <b>easy</b>, and <b>smart</b></p>
+                        <h3>HireMyResume offers you a comprehensive package as a job seeker:</h3>
+                        <ul>
+                            <li>We will help you achieve a high-quality professional resume within just 72 hours</li>
+                            <li>We will assist you on your very own cover letter which will enhance your chances of getting a job – quickly!</li>
+                            <li>We will UPGRADE your current LinkedIn profile to appear in more searches by Recruiters</li>
+                            <li>Our experts are currently active recruiters, highly experienced in their respective industries. If you are thinking of switching careers, apply here for a 1-1 appointment.</li>
+                        </ul>
+                        <p style="text-align:center;">Take advantage by getting started now.</p>
+                        <div style="text-align: center">
+                            <a href="{{url('/')}}" style=" display: inline-block; text-decoration: none; padding: 16px 24px; background-color: #4bc3de; color: #fff; font-weight: bold;">GET STARTED</a>
+                        </div>
+                        <div style="text-align: center">
+                            <a href="{{setting('site.facebook')}}" style="display: inline-block; margin: 10px">
+                                <img src="{{url('/assets/img/social/facebook.png')}}" />
+                            </a>
+                            <a href="{{setting('site.instagram')}}" style="display: inline-block; margin: 10px">
+                                <img src="{{url('/assets/img/social/instagram.png')}}" />
+                            </a>
+                            <a href="{{setting('site.linkedin')}}" style="display: inline-block; margin: 10px">
+                                <img src="{{url('/assets/img/social/linkedin.png')}}" />
+                            </a>
+                        </div>
                       </td>
                     </tr>
                   </table>
@@ -169,9 +197,7 @@
                     class="content-block"
                     style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;"
                   >
-                    <a href="{{ url('/')}}">
-                      <img src="{{ asset( setting('site.logo') )}}" />
-                    </a>
+                    
                     <br />
                     Don't like these emails?
                     <a

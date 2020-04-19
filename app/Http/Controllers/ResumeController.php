@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use Config;
 use App\Resume;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class ResumeController extends Controller
 {
@@ -37,6 +39,7 @@ class ResumeController extends Controller
     public function store(Request $request)
     {
         $resume = new Resume;
+        $checkUser = Resume::where('email','=',$request->email)->get()->toArray();
         $resume->name = $request->name;
         $resume->email = $request->email;
         $resume->phone_number = $request->phone_number;
@@ -57,7 +60,17 @@ class ResumeController extends Controller
         $resume->status = 'NOT_RATED';
         $resume->save();
         $request->session()->flash('status', 'Thanks for submiting!');
-        return view('quote');
+
+        if(count($checkUser) == 0) {
+            $mailData = [];
+            $from = config('mail.from.address');
+            Mail::send('mail.welcome', $mailData, function($message) use($resume,$from) {
+                $message->to($resume->email, $resume->name)
+                        ->subject(setting('site.title'));
+                $message->from($from,setting('site.title'));
+            });
+        }
+        return redirect()->route('quote');
     }
 
     /**

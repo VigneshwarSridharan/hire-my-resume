@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Config;
 use App\Star;
 use App\Rating;
 use App\Resume;
@@ -97,11 +98,11 @@ class RatingController extends Controller
             else {
                 $mailData['msg'] = "You would need to redo your resume. Due to incomplete content and experience, it would be best to set up a call with our expert to get your resume on track.";
             }
-            
-            Mail::send('mail.basic', $mailData, function($message) use ($resume) {
+            $from = config('mail.from.address');
+            Mail::send('mail.basic', $mailData, function($message) use ($resume,$from) {
                 $message->to($resume->email, $resume->name)
                         ->subject(setting('site.title'));
-                $message->from('admin@gmail.com',setting('site.title'));
+                $message->from($from,setting('site.title'));
             });
         }
         return redirect()->route('voyager.resumes.index');
