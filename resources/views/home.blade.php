@@ -790,7 +790,7 @@ At HireMyResume, our focus is on making sure that your resume catches the attent
                 <div class="or">Or</div>
                 <div class="advantage-item">
                     <h3 class="advantage--title">Need a free <br /> resume analysis?</h3>
-                    <a href="#pricing">Analyse my resume</a>
+                    <a href="{{url('/resume')}}">Analyse my resume</a>
                 </div>
             </div>
             

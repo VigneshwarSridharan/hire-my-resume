@@ -18,7 +18,7 @@ class BlogController extends Controller
         if(isset($post)) {
             return view('blog')->with([
                 'pageTitle' => $post->title,
-                'pageImage' => $post->image,
+                // 'pageImage' => $post->image,
                 'post' => $post
             ]);
         }

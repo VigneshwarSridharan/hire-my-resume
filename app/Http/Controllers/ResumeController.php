@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use Config;
+use App\User;
 use App\Resume;
+use App\Subscribe;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -38,38 +40,46 @@ class ResumeController extends Controller
      */
     public function store(Request $request)
     {
-        $resume = new Resume;
-        $checkUser = Resume::where('email','=',$request->email)->get()->toArray();
-        $resume->name = $request->name;
-        $resume->email = $request->email;
-        $resume->phone_number = $request->phone_number;
-        $resume->experience = $request->experience;
-        $resume->industry = $request->industry;
+        $mailData = [];
+        $resume = new Subscribe;
+        $checkUser = Subscribe::where('email','=',$request->email)->get()->toArray();
+        $resume->name = $mailData['name'] = $request->name;
+        $resume->email = $mailData['email'] = $request->email;
+        $resume->save();
+        $mailData['phone_number'] = $request->phone_number;
+        $mailData['experience'] = $request->experience;
+        $mailData['industry'] = $request->industry;
         if(isset($request->service)) {
-            $resume->service = implode(",",$request->service);
+            $mailData['service'] = implode(", ",$request->service);
         }
         else {
-            $resume->service = '';
+            $mailData['service'] = '';
         }
-        $resume->have_cv = isset($request->have_cv);
+        $mailData['have_cv'] = isset($request->have_cv);
         if($request->hasFile('resume')) {
             $directory = 'resume/'.Carbon::now()->format('FY').'/';
             $path = $request->file('resume')->store($directory,'public');
-            $resume->resume = $path;
+            $mailData['resume'] = asset($path);
         }
-        $resume->status = 'NOT_RATED';
-        $resume->save();
         $request->session()->flash('status', 'Thanks for submiting!');
 
+        $from = config('mail.from.address');
         if(count($checkUser) == 0) {
-            $mailData = [];
-            $from = config('mail.from.address');
-            Mail::send('mail.welcome', $mailData, function($message) use($resume,$from) {
+            Mail::send('mail.welcome', [], function($message) use($resume,$from) {
                 $message->to($resume->email, $resume->name)
                         ->subject(setting('site.title'));
-                $message->from($from,setting('site.title'));
+                $message->from($from,setting('site.title'));            
             });
         }
+        $admin_users = User::where('role_id','=',3)->get()->toArray();
+        $admin_users = array_map(function($item) {
+            return $item['email'];
+        },$admin_users);
+        Mail::send('mail.quote', $mailData, function($message) use($resume,$from,$admin_users) {
+            $message->to($admin_users)
+                    ->subject(setting('site.title'));
+            $message->from($from,setting('site.title'));            
+        });
         return redirect()->route('quote');
     }
 

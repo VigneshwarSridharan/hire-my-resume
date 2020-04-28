@@ -24,6 +24,12 @@ Route::get('/quote', "ResumeController@index")->name('quote');
 
 Route::post('/quote', "ResumeController@store");
 
+Route::get('/resume',"SubscribeController@index")->name('resume');
+
+Route::post('/resume',"SubscribeController@store");
+
+// Route::get('/resume',"SubscribeController@index")->name('resume');
+
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
@@ -50,10 +56,14 @@ Route::get('/storage', function() {
     return 'Storage linked done!';
 });
 
+Route::get('/test', function() {
+    return dfgdf;
+})
+
 Route::get('{slug}', function($slug) {
     $page = Page::where('slug','=',$slug)->first();
     if(isset($page)) {
-        return view('blog')->with([
+        return view('page')->with([
             'pageTitle' => $page->title,
             'post' => $page
         ]);
