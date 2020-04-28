@@ -58,7 +58,7 @@ Route::get('/storage', function() {
 
 Route::get('/test', function() {
     return dfgdf;
-})
+});
 
 Route::get('{slug}', function($slug) {
     $page = Page::where('slug','=',$slug)->first();
