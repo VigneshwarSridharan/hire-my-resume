@@ -56,10 +56,6 @@ Route::get('/storage', function() {
     return 'Storage linked done!';
 });
 
-Route::get('/test', function() {
-    return dfgdf;
-});
-
 Route::get('{slug}', function($slug) {
     $page = Page::where('slug','=',$slug)->first();
     if(isset($page)) {
