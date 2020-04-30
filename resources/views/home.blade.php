@@ -16,8 +16,8 @@
 
                         <h3 class="advantage__title">Why Us?</h3>
 
-                        <p class="advantage__text">n order for you to get hired, you first need a call-back. A call-back presents the first step to getting your next job. In a turbulent economy like today, only the best resumes stand to be hired (chosen!). <br />
-At HireMyResume, our focus is on making sure that your resume catches the attention of job providers to get that call-back. Our resume writers are also recruiters and, the target is to get your resume ‘hired’ as fast as possible.</p>
+                        <p class="advantage__text">In order for you to get hired, you first need a call-back. A call-back presents the first step to getting your next job. In a turbulent economy like today, only the best resumes stand to be hired.
+At HireMyResume, our focus is on making sure that your resume catches the attention of job providers to get that call-back. Our resume writers are also recruiters, and the target is to get your resume ‘hired’ quickly.</p>
 
                     </div>
 
@@ -60,7 +60,7 @@ At HireMyResume, our focus is on making sure that your resume catches the attent
                         <div class="feature margin-40t">
 
                             <h5 class="feature__title text-right">
-                                <a href="./write-resume.html">
+                                <a href="{{url('service/write-resume')}}">
                                     Professional Resume Writers
                                 </a>
 
@@ -77,7 +77,7 @@ At HireMyResume, our focus is on making sure that your resume catches the attent
                         <div class="feature margin-60t">
 
                             <h5 class="feature__title text-right">
-                                <a href="cover-letter.html">
+                                <a href="{{url('service/cover-letter')}}">
                                     Your Cover Letter
                                 </a>
 
@@ -109,7 +109,7 @@ At HireMyResume, our focus is on making sure that your resume catches the attent
 
                         <h5 class="feature__title">
 
-							<a href="./profile-upgrade.html">
+							<a href="{{url('service/profile-upgrade')}}">
                                 LinkedIn Profile Upgrade
                             </a>
 
@@ -126,14 +126,14 @@ At HireMyResume, our focus is on making sure that your resume catches the attent
 
                         <h5 class="feature__title">
 
-							<a href="./advise.html">
+							<a href="{{url('service/advise')}}">
                                 Career Advise
                             </a>
 
 
 						</h5>
 
-                        <p class="feature__text">A great CV is an important step. Are you sending it through the best channels?</p>
+                        <p class="feature__text">A great resume is a must have. However, are you sending it through the right channels? Over 80% of job seekers under-utilise free resources!</p>
 
                     </div>
 
@@ -227,7 +227,8 @@ At HireMyResume, our focus is on making sure that your resume catches the attent
                 </div>
                 <div class="col-md-12 no-padd">
                     <div class="plan__bill " style=" background: #FFFBFB; text-align: center; padding: 1%;margin: 0;">
-                    Change the last sentence. : <b>If you are a suitable candidate, we will be calling you.</b></div>
+                        Our recruiters manage multiple clients, which means they have ready job offers at hand. <b>If you are a suitable candidate, we will be calling you.</b>
+                    </div>
                     </div>
                 </div>
 				
@@ -636,8 +637,13 @@ At HireMyResume, our focus is on making sure that your resume catches the attent
 
                         <div class="plan__title">Up to 5 years of experience</div>
 
-                        <div class="plan__price">
-                            (launch price) <br /> <span class="plan__price--big"> <strike style="font-size: 25px;">RM115-RM135</strike> RM75-RM95</span>
+                        <div class="plan__price" style="display: flex;align-items: baseline;">
+                            <div>
+                            <strike style="font-size: 25px;">RM115-RM135</strike>
+                            </div>
+                            <div>
+                             <span class="plan__price--big"> RM75-RM95</span> <br> (launch price) 
+                            </div>
                         </div>
 
                         <div class="plan__bill">Drop your CV and get your first draft within 5 Working Days</div>
@@ -662,8 +668,15 @@ At HireMyResume, our focus is on making sure that your resume catches the attent
 
                         <div class="plan__title">6-15 years of experience</div>
 
-                        <div class="plan__price">
-                            (launch price)  <br /> <span class="plan__price--big"><strike style="font-size: 25px;">RM185-RM235</strike> RM115-RM145</span>
+                        <div class="plan__price" style="display: flex;align-items: baseline;">
+                            
+                            <div>
+                                <strike style="font-size: 25px;">RM185-RM235</strike>
+                            </div>
+                            <div>
+                            <span class="plan__price--big" >
+                             RM115-RM145 </span> <br /> (launch price)
+                            </div>
                         </div>
 
                         <div class="plan__bill">Drop your CV and get your first draft within 5 Working Days</div>
@@ -763,7 +776,7 @@ At HireMyResume, our focus is on making sure that your resume catches the attent
 
             <div class="row text-center marg-lg-t30 marg-sm-t0">
 
-                <a href="{{url('/blogs')}}" class="blog-slide__more">Read more blog</a>
+                <a href="{{url('/blogs')}}" class="blog-slide__more">Read more</a>
 
             </div>
 

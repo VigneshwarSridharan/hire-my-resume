@@ -31,11 +31,11 @@
         <div class="main-header__img-logo clearfix">
             {{-- <img src="{{url('/assets/img/Hiremyresume-logo.png')}}" alt="#" height="150"> --}}
         </div>
-        <h2 class="main-header__text-top"> Hire My Resume</h2>{{--Welcome to--}}
+        <h2 class="main-header__text-top">HIREMYRESUME</h2>{{--Welcome to--}}
         <h2 class="main-header__text-middle">IMPROVE YOUR <br />CHANCES HERE</h2>
         <p class="main-header__text-bottom" style="color: #FFFBFB">Expert evaluation from actual recruiters</p>
         <div class="call-to-action">
-            <a href="{{url('/quote')}}" class="call-to-action__link">DROP YOUR CV HERE</a>
+            <a href="{{url('/quote')}}" class="call-to-action__link">DROP YOUR RESUME HERE</a>
         </div>
     @elseif(isset($pageTitle))
         <div class="page-wrapper  p-t-100 ">

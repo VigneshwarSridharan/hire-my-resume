@@ -30,6 +30,11 @@ Route::post('/resume',"SubscribeController@store");
 
 // Route::get('/resume',"SubscribeController@index")->name('resume');
 
+Route::get('/about-us',function() {
+    return view('aboutUs')->with([
+        "pageTitle" => "About Us ". setting('site.title')
+    ]);
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
@@ -54,6 +59,19 @@ Route::get('/storage', function() {
     Artisan::call('storage:link');
 
     return 'Storage linked done!';
+});
+
+Route::get('/service/{slug}', function($slug) {
+    $page = Page::where('slug','=','service/'.$slug)->first();
+    if(isset($page)) {
+        return view('service')->with([
+            'pageTitle' => 'Service',
+            'post' => $page
+        ]);
+    }
+    else {
+        return view('errors.404');
+    }
 });
 
 Route::get('{slug}', function($slug) {

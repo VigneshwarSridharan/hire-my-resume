@@ -148,16 +148,17 @@
                       <td
                         style="font-family: sans-serif; font-size: 14px; vertical-align: top;"
                       >
-                        <h2 style="text-align:center; color: #4bc3de;">Thank you for joining HireMyResume! This is your first step to level-Up in your personal branding. Let's get started.</h2>
-                        <p><b>StylingCV</b> hs many great features that make creating a high-quality professional resume <b>fast</b>, <b>easy</b>, and <b>smart</b></p>
+                        <h2 style="text-align:center; color: #4bc3de;">Thank you for joining HireMyResume! This is your first step to level-up in your personal branding.</h2>
+                        <h2 style="text-align:center; color: #4bc3de;">Let's get started.</h2>
+                        
                         <h3>HireMyResume offers you a comprehensive package as a job seeker:</h3>
                         <ul>
-                            <li>We will help you achieve a high-quality professional resume within just 72 hours</li>
-                            <li>We will assist you on your very own cover letter which will enhance your chances of getting a job – quickly!</li>
-                            <li>We will UPGRADE your current LinkedIn profile to appear in more searches by Recruiters</li>
-                            <li>Our experts are currently active recruiters, highly experienced in their respective industries. If you are thinking of switching careers, apply here for a 1-1 appointment.</li>
+                            <li>We shall help you achieve a professional resume within just 72 hours.</li>
+                            <li>We shall assist you on your very own cover letter which will enhance your chances of getting a job – quickly!</li>
+                            <li>We shall UPGRADE your current LinkedIn profile to appear in more searches by Recruiters.</li>
+                            <li>The word ‘apply here’ to be underlined/linked to the registration page</li>
                         </ul>
-                        <p style="text-align:center;">Take advantage by getting started now.</p>
+                        <p style="text-align:center;"><b>Take advantage by getting started now.</b></p>
                         <div style="text-align: center">
                             <a href="{{url('/')}}" style=" display: inline-block; text-decoration: none; padding: 16px 24px; background-color: #4bc3de; color: #fff; font-weight: bold;">GET STARTED</a>
                         </div>

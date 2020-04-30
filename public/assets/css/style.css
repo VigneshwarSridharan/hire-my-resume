@@ -76,7 +76,7 @@ This is main CSS file that contains custom style rules used in this template
 
 .advantages .advantage {
 
-  padding: 80px 90px 100px 80px;
+  padding: 30px 90px 40px 80px;
 
   -webkit-box-sizing: border-box;
 
@@ -5046,4 +5046,22 @@ input[type=checkbox], input[type=radio] {
 
 .upload-cv-toggle:checked ~ .upload-cv {
   display: block;
+}
+
+.site-btn {
+  display: inline-block;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  background-color: #4bc3de;
+  border: solid 1px #4bc3de;
+  text-decoration: none;
+  color: #fff;
+}
+
+.site-btn:hover {
+  color: #4bc3de;
+  text-decoration: none;
+  background-color: transparent;
+
+
 }
