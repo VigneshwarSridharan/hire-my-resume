@@ -637,13 +637,8 @@ At HireMyResume, our focus is on making sure that your resume catches the attent
 
                         <div class="plan__title">Up to 5 years of experience</div>
 
-                        <div class="plan__price" style="display: flex;align-items: baseline;">
-                            <div>
-                            <strike style="font-size: 25px;">RM115-RM135</strike>
-                            </div>
-                            <div>
-                             <span class="plan__price--big"> RM75-RM95</span> <br> (launch price) 
-                            </div>
+                        <div class="plan__price">
+                            <span class="plan__price--big">RM75-RM95 <strike style="font-size: 25px;">RM115-RM135</strike></span> <br> (launch price)
                         </div>
 
                         <div class="plan__bill">Drop your CV and get your first draft within 5 Working Days</div>
@@ -668,15 +663,8 @@ At HireMyResume, our focus is on making sure that your resume catches the attent
 
                         <div class="plan__title">6-15 years of experience</div>
 
-                        <div class="plan__price" style="display: flex;align-items: baseline;">
-                            
-                            <div>
-                                <strike style="font-size: 25px;">RM185-RM235</strike>
-                            </div>
-                            <div>
-                            <span class="plan__price--big" >
-                             RM115-RM145 </span> <br /> (launch price)
-                            </div>
+                        <div class="plan__price">
+                            <span class="plan__price--big" >RM115-RM145 <strike style="font-size: 25px;">RM185-RM235</strike></span> <br /> (launch price)
                         </div>
 
                         <div class="plan__bill">Drop your CV and get your first draft within 5 Working Days</div>

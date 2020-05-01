@@ -9,7 +9,7 @@
     @endif
     <div class="main-header__menu-line">
         <a href="{{url('/')}}" class="main-header__text-logo">
-            <img src="{{asset(setting('site.logo'))}}" height="40" />
+            <img src="{{asset(setting('site.logo'))}}" />
         </a>
         <div class="wpc-navigation">
             <nav class="clearfix">

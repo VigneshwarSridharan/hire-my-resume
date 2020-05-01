@@ -77,7 +77,7 @@
 
                         </div>
 
-                        <input class="btn subscribe" name="submit" type="submit" class="btn btn--radius-2 btn--blue-2" style="background-color: #827676;">
+                        <input class="btn subscribe" name="submit" type="submit" class="btn btn--radius-2 btn--blue-2" style="background-color: #4bc3de ;">
                         
                     </form>
 
