@@ -1814,9 +1814,9 @@ This is main CSS file that contains custom style rules used in this template
 
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 
-  font-weight: 400;
+  font-weight: 700;
 
-  font-size: 24px;
+  font-size: 28px;
 
   letter-spacing: 1px;
 
@@ -1838,7 +1838,7 @@ This is main CSS file that contains custom style rules used in this template
 
   font-weight: 400;
 
-  font-size: 14px;
+  font-size: 18px;
 
   line-height: 26px;
 
@@ -2233,7 +2233,7 @@ This is main CSS file that contains custom style rules used in this template
 
   font-weight: 400;
 
-  font-size: 14px;
+  font-size: 18px;
 
   line-height: 26px;
 
@@ -2255,7 +2255,7 @@ This is main CSS file that contains custom style rules used in this template
 
   font-weight: 700;
 
-  font-size: 24px;
+  font-size: 28px;
 
   text-transform: uppercase;
 

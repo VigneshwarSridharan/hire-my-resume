@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section('content')
-    <section class="">
+    <section class="p-t-20">
     <div style="background-color: #f5f5f5;">
         <div class="container">
             <div class="row" style="display: flex; align-items: center">

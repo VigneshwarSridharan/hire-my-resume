@@ -65,7 +65,7 @@ Route::get('/service/{slug}', function($slug) {
     $page = Page::where('slug','=','service/'.$slug)->first();
     if(isset($page)) {
         return view('service')->with([
-            'pageTitle' => 'Service',
+            'pageTitle' => 'Personal Branding',
             'post' => $page
         ]);
     }

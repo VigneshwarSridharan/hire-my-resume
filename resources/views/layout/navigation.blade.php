@@ -40,21 +40,8 @@
     @elseif(isset($pageTitle))
         <div class="page-wrapper  p-t-100 ">
 
-            <div style="max-width: 80%; margin: 0 auto">
-
-                <div class="card card-6">
-
-                    
-
-                    <div class="card-body" style="padding: 2% 5%">
-
-                    <h1>{{$pageTitle}}</h1>
-
-                    </div>
-
-                    
-
-                </div>
+            <div style="max-width: 80%; margin: 0 auto; color:#fff; font-size: 42px" class="text-center">
+                <div>{{$pageTitle}}</div>
 
             </div>
 

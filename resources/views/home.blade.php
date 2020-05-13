@@ -120,8 +120,6 @@ At HireMyResume, our focus is on making sure that your resume catches the attent
 
                     </div>
 
-                    <br>	
-
                     <div class="feature margin-60t">
 
                         <h5 class="feature__title">
